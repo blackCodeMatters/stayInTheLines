@@ -10,11 +10,16 @@
 		C9E412941BBC355900C9194E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412931BBC355900C9194E /* main.m */; };
 		C9E412971BBC355900C9194E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412961BBC355900C9194E /* AppDelegate.m */; };
 		C9E4129A1BBC355900C9194E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412991BBC355900C9194E /* ViewController.m */; };
-		C9E4129D1BBC355900C9194E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E4129B1BBC355900C9194E /* Main.storyboard */; };
+		C9E4129D1BBC355900C9194E /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E4129B1BBC355900C9194E /* Main.iPhone.storyboard */; };
 		C9E4129F1BBC355900C9194E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E4129E1BBC355900C9194E /* Assets.xcassets */; };
 		C9E412A21BBC355900C9194E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E412A01BBC355900C9194E /* LaunchScreen.storyboard */; };
 		C9E412AD1BBC355900C9194E /* RaceToTheTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412AC1BBC355900C9194E /* RaceToTheTopTests.m */; };
 		C9E412B81BBC355900C9194E /* RaceToTheTopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412B71BBC355900C9194E /* RaceToTheTopUITests.m */; };
+		C9E412C71BBC358D00C9194E /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E412C61BBC358D00C9194E /* SpaceShipView.m */; settings = {ASSET_TAGS = (); }; };
+		C9E4130B1BBED8AD00C9194E /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E4130A1BBED8AD00C9194E /* Main.iPad.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C9E4130D1BBEDC3E00C9194E /* waterfall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9E4130C1BBEDC3D00C9194E /* waterfall.jpg */; settings = {ASSET_TAGS = (); }; };
+		C9E413101BBEDD0200C9194E /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E4130F1BBEDD0200C9194E /* MountainPath.m */; settings = {ASSET_TAGS = (); }; };
+		C9E413131BBEE0CB00C9194E /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E413121BBEE0CB00C9194E /* PathView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,7 @@
 		C9E412961BBC355900C9194E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9E412981BBC355900C9194E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C9E412991BBC355900C9194E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C9E4129C1BBC355900C9194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9E4129C1BBC355900C9194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		C9E4129E1BBC355900C9194E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E412A11BBC355900C9194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9E412A31BBC355900C9194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		C9E412B31BBC355900C9194E /* RaceToTheTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceToTheTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E412B71BBC355900C9194E /* RaceToTheTopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaceToTheTopUITests.m; sourceTree = "<group>"; };
 		C9E412B91BBC355900C9194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E412C51BBC358D00C9194E /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
+		C9E412C61BBC358D00C9194E /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
+		C9E4130A1BBED8AD00C9194E /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		C9E4130C1BBEDC3D00C9194E /* waterfall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterfall.jpg; sourceTree = "<group>"; };
+		C9E4130E1BBEDD0200C9194E /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
+		C9E4130F1BBEDD0200C9194E /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
+		C9E413111BBEE0CB00C9194E /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		C9E413121BBEE0CB00C9194E /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +118,14 @@
 				C9E412961BBC355900C9194E /* AppDelegate.m */,
 				C9E412981BBC355900C9194E /* ViewController.h */,
 				C9E412991BBC355900C9194E /* ViewController.m */,
-				C9E4129B1BBC355900C9194E /* Main.storyboard */,
+				C9E4129B1BBC355900C9194E /* Main.iPhone.storyboard */,
+				C9E4130A1BBED8AD00C9194E /* Main.iPad.storyboard */,
+				C9E413111BBEE0CB00C9194E /* PathView.h */,
+				C9E413121BBEE0CB00C9194E /* PathView.m */,
+				C9E4130E1BBEDD0200C9194E /* MountainPath.h */,
+				C9E4130F1BBEDD0200C9194E /* MountainPath.m */,
+				C9E412C51BBC358D00C9194E /* SpaceShipView.h */,
+				C9E412C61BBC358D00C9194E /* SpaceShipView.m */,
 				C9E4129E1BBC355900C9194E /* Assets.xcassets */,
 				C9E412A01BBC355900C9194E /* LaunchScreen.storyboard */,
 				C9E412A31BBC355900C9194E /* Info.plist */,
@@ -117,6 +137,7 @@
 		C9E412921BBC355900C9194E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9E4130C1BBEDC3D00C9194E /* waterfall.jpg */,
 				C9E412931BBC355900C9194E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E4130B1BBED8AD00C9194E /* Main.iPad.storyboard in Resources */,
+				C9E4130D1BBEDC3E00C9194E /* waterfall.jpg in Resources */,
 				C9E412A21BBC355900C9194E /* LaunchScreen.storyboard in Resources */,
 				C9E4129F1BBC355900C9194E /* Assets.xcassets in Resources */,
-				C9E4129D1BBC355900C9194E /* Main.storyboard in Resources */,
+				C9E4129D1BBC355900C9194E /* Main.iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E4129A1BBC355900C9194E /* ViewController.m in Sources */,
+				C9E412C71BBC358D00C9194E /* SpaceShipView.m in Sources */,
+				C9E413101BBEDD0200C9194E /* MountainPath.m in Sources */,
+				C9E413131BBEE0CB00C9194E /* PathView.m in Sources */,
 				C9E412971BBC355900C9194E /* AppDelegate.m in Sources */,
 				C9E412941BBC355900C9194E /* main.m in Sources */,
 			);
@@ -308,12 +334,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9E4129B1BBC355900C9194E /* Main.storyboard */ = {
+		C9E4129B1BBC355900C9194E /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C9E4129C1BBC355900C9194E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		C9E412A01BBC355900C9194E /* LaunchScreen.storyboard */ = {
@@ -415,6 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.dustin.RaceToTheTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -426,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.dustin.RaceToTheTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
